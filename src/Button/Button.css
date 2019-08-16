@@ -1,0 +1,32 @@
+button {
+  vertical-align: top;
+  width: 303px;
+  height: 50px;
+  border-radius: 5px;
+  font-family: MuseoSans;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  border-style: none;
+  background-color: var(--white);
+  color: var(--alpha);
+}
+
+button.alpha {
+  background-color: var(--alpha);
+  color: var(--white);
+}
+
+button.beta {
+  background-color: var(--beta);
+  color: var(--white);
+}
+
+button.gamma {
+  background-color: var(--gamma);
+  color: var(--white);
+}
